@@ -3,3 +3,11 @@ This is an adventure website which is made using html and css only. It is also r
 
 ### Deployment
 Link to Visit the site : 
+https://surbhi1511-yadav.github.io/Adventure-Website/
+
+### Build With
+* HTML
+* CSS
+
+### Author
+Surbhi Yadav

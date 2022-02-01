@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure-Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Styling  -->
+    <nav class="navbar">
+        <h1 class="logo">ADVENT<span>URE</span></h1>
+        <ul class="nav-links">
+            <li ><a href="#" class="active">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li><a class="btn" href="#footer">Contact</a></li>
+        </ul>
+        <img src="./images/img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A Wonderful Gift</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+        
+    <!-- Event Section  -->
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcomming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="./images/img/img1.png" alt="">
+                <h4>Everest Camp Track</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a ducimus possimus exercitationem odio laborum!</p>
+                <a class="btn" href="#">Learn More</a>
+            </div>
+            <div class="column">
+                <img src="./images/img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed a ducimus possimus exercitationem odio laborum!</p>
+                <div class="btn">Learn More</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EXPLORE Section  -->
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. A et voluptates dolorum autem id excepturi voluptatum ab esse. Ea deleniti, eius eaque in sed velit praesentium delectus debitis ut dolorem?</p>
+            <a class="btn" href="#">Learn More</a>
+        </div>
+        
+    </section>
+
+
+    <!-- TOURS SECTION  -->
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="column content-column">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus natus voluptatibus nesciunt sequi officia eligendi non in neque repellat? Deserunt molestiae omnis aspernatur expedita nesciunt quod adipisci possimus cum voluptatem.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="column image-column">
+                <div class="image-gallery">
+                    <img src="./images/img/img3.png" alt="">
+                    <img src="./images/img/img4.png" alt="">
+                    <img src="./images/img/img5.png" alt="">
+                    <img src="./images/img/img6.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer section  -->
+    <section class="footer" id="footer">
+        <p>123 Fifth Avenue, New Delhi| Phone : 800-123-456 | Email : adventure@gmail.com</p>
+        <p>Copyright &copy; 2020 Outdoor Adventure</p>
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',() => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
